@@ -19,7 +19,7 @@
               <input type="hidden" name="token" value="{{ $token }}" />
               <div class="form-group">
                 <label for="email">メールアドレス</label>
-                <input type="text" class="form-control" id="email" name="email" value="{{ old('email') }}" />
+                <input type="text" class="form-control" id="email" name="email" value="{{ old('email', $email) }}" />
               </div>
               <div class="form-group">
                 <label for="password">新しいパスワード</label>
